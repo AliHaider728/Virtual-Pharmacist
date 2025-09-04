@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom"; // Add these imports
 import { ChevronDown, Menu, X, Mail, Phone, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import "./Header.css"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -125,7 +126,7 @@ const Header = () => {
       </div>
 
       <div
-        className={`bg-gradient-to-r from-slate-800 to-slate-700 text-white transition-all duration-500 relative ${
+        className={` bg-gradient-to-r from-slate-800 to-slate-700 text-white transition-all duration-500 relative ${
           isScrolled ? "h-20" : "h-28"
         }`}
       >
@@ -140,11 +141,11 @@ const Header = () => {
               className="flex items-center space-x-3 cursor-pointer group"
               ref={logoRef}
             >
-              <div className="relative">
+              <div className="movein relative">
                 <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl group-hover:bg-blue-400/30 transition-all duration-500"></div>
                 <img
                   src="https://virtualpharmacist.co.uk/wp-content/uploads/2024/11/logo-3.svg"
-                  alt="Clinical Prescribing Services Logo"
+                  alt=" Virtual Pharmacist Services Logo"
                   className={`object-contain transition-all duration-500 relative z-10 ${
                     isScrolled ? "h-10 w-auto" : "h-12 w-auto"
                   }`}
