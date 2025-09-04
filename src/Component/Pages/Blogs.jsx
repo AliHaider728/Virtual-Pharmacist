@@ -895,7 +895,7 @@ const categories = [
               </NavLink>
               <div className="text-blue-100">
                 <div className="text-lg font-semibold">Call us directly</div>
-                <div className="text-2xl font-bold">07961 842 069</div>
+                <div className="text-2xl font-bold">0113 871 5065</div>
               </div>
             </div>
           </div>
