@@ -97,14 +97,14 @@ const Header = () => {
               className="flex items-center space-x-2 transition-all duration-300 hover:scale-105 group"
             >
               <Mail className="w-3 h-3 sm:w-4 sm:h-4" />
-              <span className="text-xs sm:text-sm">info@clinicalprescribingservices.co.uk</span>
+              <span className="text-xs md:text-[15px] sm:text-sm">info@clinicalprescribingservices.co.uk</span>
             </a>
             <a
               href="tel:07961842069"
               className="flex items-center space-x-2 transition-all duration-300 hover:scale-105 group"
             >
               <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
-              <span className="text-xs sm:text-sm">07961 842 069</span>
+              <span className="text-xs md:text-[15px] sm:text-sm">07961 842 069</span>
             </a>
           </div>
           <div className="flex items-center space-x-3 mt-1 sm:mt-0">
@@ -117,7 +117,7 @@ const Header = () => {
                 aria-label={label}
                 className={`text-white ${color} transition-all duration-300 transform hover:scale-125`}
               >
-                <Icon className="w-5 h-5 sm:w-4 sm:h-4" />
+                <Icon className="w-10 h-10 sm:w-4 sm:h-4" />
               </a>
             ))}
           </div>
