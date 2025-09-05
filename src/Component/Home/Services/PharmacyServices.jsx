@@ -10,6 +10,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import  "../../Header/Header.css";
 
 const services = [
   {
@@ -85,7 +86,7 @@ const PharmacyServices = () => {
             return (
               <div
                 key={index}
-                className="group relative flex flex-col items-center text-center bg-white rounded-2xl p-6 hover:shadow-xl border border-gray-100 hover:border-blue-200 transition-all duration-500 overflow-hidden"
+                className="slides-in group relative flex flex-col items-center text-center bg-white rounded-2xl p-6 hover:shadow-lg border border-gray-100 hover:border-blue-200 transition-all duration-500 overflow-hidden"
               >
                 {/* Icon */}
                 <div className="flex items-center justify-center w-14 h-14 bg-blue-100 text-blue-600 rounded-xl shadow-md mb-4 group-hover:bg-blue-200 group-hover:text-blue-700 transition-all duration-300">
@@ -161,7 +162,7 @@ const PharmacyServices = () => {
                 ].map((item) => (
                   <div
                     key={item.name}
-                    className="flex items-center gap-2 bg-white px-3 py-2 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-gray-200 group"
+                    className=" flex items-center gap-2 bg-white px-3 py rounded-lg shadow-lg hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-gray-200 group"
                   >
                     <div
                       className={`w-2 h-2 ${
