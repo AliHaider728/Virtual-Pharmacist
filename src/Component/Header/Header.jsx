@@ -118,7 +118,7 @@ const Header = () => {
                 aria-label={label}
                 className={`text-white ${color} transition-all duration-300 transform hover:scale-125`}
               >
-                <Icon className="w-10 h-10 sm:w-4 sm:h-4" />
+                <Icon className=" w-4 h-4 sm:w-4 sm:h-4" />
               </a>
             ))}
           </div>
