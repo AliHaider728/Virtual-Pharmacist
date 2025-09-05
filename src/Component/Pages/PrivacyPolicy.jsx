@@ -137,8 +137,8 @@ const PrivacyPolicy = () => {
         <div className="absolute bottom-32 left-20 w-8 h-8 bg-white/20 rounded-full blur-sm float-animation" style={{ animationDelay: "1s" }}></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <div className="inline-block p-4 bg-white/10 rounded-full mb-8 pulse-glow">
-            <Shield className="w-20 h-20 text-white" />
+          <div className="inline-block p-4 bg-white/10 rounded-full mb-8 mt-8 pulse-glow">
+            <Shield className="w-16  h-16 text-white" />
           </div>
           <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent">
             Privacy Policy
