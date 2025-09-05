@@ -18,7 +18,7 @@ import { NavLink } from "react-router-dom";
 import PharmacyServices from "./Services/PharmacyServices";
 import Virtual from "./Services/ServiceSlider";
 import TestimonialSliderHome from "../TestimonialCard/HomeTesimoial";
-
+import "../Header/Header.css"
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [fade, setFade] = useState(true);
@@ -304,7 +304,7 @@ const Home = () => {
           {/* Content */}
           <div className="relative max-w-6xl mx-auto px-6">
             {/* Simple Header */}
-            <div className="text-center mb-16">
+            <div className="top-ani text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                 Trusted by Healthcare Professionals
               </h2>
@@ -316,7 +316,7 @@ const Home = () => {
             {/* Clean Stats Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {/* Stat 1 */}
-              <div className="text-center group">
+              <div className="opacity-ani text-center group">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/15 hover:-translate-y-3 transition-all duration-300">
                   <Users className="w-8 h-8 mx-auto mb-4 text-cyan-400" />
                   <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
@@ -327,7 +327,7 @@ const Home = () => {
               </div>
 
               {/* Stat 2 */}
-              <div className="text-center group">
+              <div className="opacity-ani text-center group">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/15 hover:-translate-y-3 transition-all duration-300">
                   <CalendarCheck className="w-8 h-8 mx-auto mb-4 text-cyan-400" />
                   <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
@@ -338,7 +338,7 @@ const Home = () => {
               </div>
 
               {/* Stat 3 */}
-              <div className="text-center group">
+              <div className="opacity-ani text-center group">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/15 hover:-translate-y-3 transition-all duration-300">
                   <ShieldCheck className="w-8 h-8 mx-auto mb-4 text-cyan-400" />
                   <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
@@ -349,7 +349,7 @@ const Home = () => {
               </div>
 
               {/* Stat 4 */}
-              <div className="text-center group">
+              <div className="opacity-ani text-center group">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/15 hover:-translate-y-3 transition-all duration-300">
                   <Handshake className="w-8 h-8 mx-auto mb-4 text-cyan-400" />
                   <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
