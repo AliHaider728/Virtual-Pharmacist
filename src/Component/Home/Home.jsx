@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import Footer from "../Footer/Footer";
 import { NavLink } from "react-router-dom";
-import PharmacyServices from "./Services/PharmacyServices"
+import PharmacyServices from "./Services/PharmacyServices";
 import Virtual from "./Services/ServiceSlider";
 import TestimonialSliderHome from "../TestimonialCard/HomeTesimoial";
 
@@ -167,21 +167,19 @@ const Home = () => {
                 >
                   {slides[currentSlide].subtext}
                 </p>
-               <NavLink
-  to="/about"
-  className="relative inline-flex items-center gap-2 bg-gradient-to-r from-blue-700 to-blue-900 text-white px-6 py-3 rounded-lg text-sm sm:text-base md:text-lg font-semibold border border-transparent overflow-hidden group transition-all duration-300 hover:from-blue-600 hover:to-blue-800"
->
-  {/* Sliding white highlight effect */}
-  <span className="absolute right-0 w-10 h-full top-0 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 -skew-x-12 group-hover:-translate-x-36 ease"></span>
+                <NavLink
+                  to="/about"
+                  className="relative inline-flex items-center gap-2 bg-gradient-to-r from-blue-700 to-blue-900 text-white px-6 py-3 rounded-lg text-sm sm:text-base md:text-lg font-semibold border border-transparent overflow-hidden group transition-all duration-300 hover:from-blue-600 hover:to-blue-800"
+                >
+                  {/* Sliding white highlight effect */}
+                  <span className="absolute right-0 w-10 h-full top-0 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 -skew-x-12 group-hover:-translate-x-36 ease"></span>
 
-  {/* Button content */}
-  <span className="relative flex items-center gap-2">
-    Find Out More
-    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-  </span>
-</NavLink>
-
-
+                  {/* Button content */}
+                  <span className="relative flex items-center gap-2">
+                    Find Out More
+                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                  </span>
+                </NavLink>
               </div>
             </div>
             <div className="flex justify-center mt-6">
