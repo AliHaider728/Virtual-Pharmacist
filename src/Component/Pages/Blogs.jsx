@@ -373,7 +373,7 @@ const categories = [
           <div className="text-center text-white">
             <BookOpen className="w-20 h-20 mx-auto mb-8 text-blue-200 floating-icon" />
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-             Clinical Prescribing Services Blog
+            Virtual Pharmacist Blog
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
               Insights, updates, and expert perspectives on primary care pharmacy services
